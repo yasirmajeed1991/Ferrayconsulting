@@ -39,7 +39,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "info@ferrayconsulting.com";
+$EmailTo = "youremail@mail.com"; // Change with your email on which you get emails
 
 $Subject = "New Message Received";
 

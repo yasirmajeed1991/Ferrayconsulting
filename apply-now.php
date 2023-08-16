@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $companyAddress = $_POST["companyAddress"];
     $loanType = $_POST["loanType"];
     
-    $EmailTo = "info@ferrayconsulting.com";
+    $EmailTo = "youremail@mail.com"; // Change with your email on which you get emails
     $Subject = "New Query Received";
     
     // Prepare email body text
